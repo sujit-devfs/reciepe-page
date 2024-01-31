@@ -20,12 +20,12 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![Page Screenshot](image.png)
+![Page Screenshot](Screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/sujit-devfs/reciepe-page)
+- Live Site URL: [live site URL](https://reciepe-page.vercel.app/)
 
 ## My process
   HTML > CSS > Readme
@@ -67,6 +67,15 @@ Learned how HTML table works and CSS media quries.
 ```css
 .content-table tbody tr td:nth-last-of-type(odd){
     color: hsl(14, 45%, 36%);
+}
+
+@media screen and (min-width: 601px) {
+    .container {
+        width: 45vw;
+        margin: 30px auto;
+        border-radius: 25px;
+        overflow: hidden;
+    }
 }
 ```
 
